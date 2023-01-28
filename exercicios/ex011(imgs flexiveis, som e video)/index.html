@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Imagens flexíveis</h1>
+    <h2>Utilizar a tag &lt;picture&gt;</h2>
+    <picture>
+        <source media="(max-width: 755px)" srcset="imagens/spacexp.png" type="image/png">
+        <source media="(max-width: 1202px)" srcset="imagens/spacexm.png" type="image/png" >
+        <img src="imagens/spacexg.png" alt="logo">
+    </picture>
+
+    <audio preload="metadata" controls loop>
+        <source src="audios/alarm.wav" type="audio/wav">
+
+    </audio>
+
+       <video width="450" poster="imagens/thumb-cavlo.jpg" controls autoplay loop>
+        <source src="videos/cavalos.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

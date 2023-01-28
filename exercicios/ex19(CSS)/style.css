@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');/*font-family: 'Oswald'*/
+
+
+body{
+    background-color: rgb(184, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redes:hover{
+    color: rgb(33, 0, 251);
+    text-decoration: none;
+}
+
+
+.paginas{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+
+.paragrafos{
+    background-color: white;
+    
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(1, 1, 255);
+}
+a:visited{
+    color: rgba(129, 45, 231, 0.811);
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    background-color: yellow;
+}
