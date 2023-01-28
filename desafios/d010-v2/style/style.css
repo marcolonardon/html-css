@@ -3,7 +3,6 @@
     src: url('../fontes/idroid.otf') format(opentype);
 }
 
-
 *{
     margin: 0px;
     text-decoration: none;
@@ -26,12 +25,10 @@ body{
 
 article > p > strong{
     color: rgba(0, 0, 0, 0.665);
-    
-
 }
+
 aside > p > strong{
     color: rgba(0, 0, 0, 0.665);
-
 }
 
 header{
@@ -68,8 +65,7 @@ nav{
 nav > a{
     color: white;
     padding: 4px 8px ;
-    border-radius: 3px;
-    
+    border-radius: 3px;  
 }
 
 nav > a:hover{
@@ -180,8 +176,6 @@ ul{
     text-decoration: underline;
     color: #195a36b3;
 }
-
-
 
 
 footer{
