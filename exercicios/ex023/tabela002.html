@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption{
+            font-weight: bolder;
+            font-size: 1.5em;
+            text-align: center;
+            background-color: rgb(236, 236, 236);
+            padding: 5px;
+        }
+        thead{
+            background-color: #636363;
+            color: white;
+            text-align: justify;
+        }
+        tfoot{
+            background-color: #636363;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes favoritos</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Mulheres</td>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
